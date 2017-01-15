@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="member-web:war exploded">
+    <output-path>$PROJECT_DIR$/member-web/target/member-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="member-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="framework-lib-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="framework-lib" />
+          </element>
+          <element id="archive" name="framework-suport-lib-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="framework-suport-lib" />
+          </element>
+          <element id="archive" name="service-lib-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="service-lib" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/member-web/target/member-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="member-web/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="admin-web" />
+        <module name="framework-lib" />
+        <module name="framework-suport-lib" />
+        <module name="member-web" />
+        <module name="service-lib" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-web" target="1.5" />
+      <module name="architecture" target="1.5" />
+      <module name="framework-lib" target="1.5" />
+      <module name="framework-suport-lib" target="1.5" />
+      <module name="member-web" target="1.5" />
+      <module name="service-lib" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

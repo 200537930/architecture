@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-web/admin-web.iml" filepath="$PROJECT_DIR$/admin-web/admin-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecture.iml" filepath="$PROJECT_DIR$/architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-lib/framework-lib.iml" filepath="$PROJECT_DIR$/framework-lib/framework-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-suport-lib/framework-suport-lib.iml" filepath="$PROJECT_DIR$/framework-suport-lib/framework-suport-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-web/member-web.iml" filepath="$PROJECT_DIR$/member-web/member-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-lib/service-lib.iml" filepath="$PROJECT_DIR$/service-lib/service-lib.iml" />
+    </modules>
+  </component>
+</project>
